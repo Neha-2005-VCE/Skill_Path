@@ -93,14 +93,3 @@ Simply open `index.html` in your browser.
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
-
-👉 **SkillPath = Career GPS for students & young professionals.**
-Input your skills → Get a step-by-step roadmap → Start earning money. 🚀
-
----
-
