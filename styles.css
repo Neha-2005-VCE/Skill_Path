@@ -1,9 +1,4 @@
-/* ================================
-   SkillPath Stylesheet
-   Human-readable & simple
-   ================================ */
 
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -23,9 +18,7 @@ body {
   margin: 0 auto;
 }
 
-/* ================================
-   Header
-   ================================ */
+
 .site-header {
   background: #ffffff;
   border-bottom: 1px solid #e5e7eb;
@@ -98,9 +91,7 @@ body {
   color: #ffffff;
 }
 
-/* ================================
-   Hero
-   ================================ */
+
 .hero {
   padding: 3rem 0;
   background: #eff6ff;
@@ -165,9 +156,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* ================================
-   Steps
-   ================================ */
+
 .how-it-works {
   padding: 3rem 0;
 }
@@ -191,9 +180,7 @@ body {
   font-weight: bold;
 }
 
-/* ================================
-   Features
-   ================================ */
+
 .features {
   background: #f3f4f6;
   padding: 3rem 0;
@@ -217,9 +204,7 @@ body {
   transition: 0.2s;
 }
 
-/* ================================
-   Dashboard
-   ================================ */
+
 .dashboard {
   padding: 3rem 0;
 }
@@ -273,9 +258,7 @@ body {
   font-weight: bold;
 }
 
-/* ================================
-   Footer
-   ================================ */
+
 .site-footer {
   background: #1e3a8a;
   color: #ffffff;
@@ -289,3 +272,4 @@ body {
   margin-top: 0.5rem;
   color: #dbeafe;
 }
+
