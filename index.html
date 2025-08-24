@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SkillPath - Virtual Side Hustle Roadmap</title>
+  <meta name="description" content="Turn your skills into income — SkillPath Roadmap Builder (static UI prototype)" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-logo" aria-hidden="true">🚀</div>
+        <div>
+          <h1 class="brand-title">SkillPath</h1>
+          <p class="brand-tag">Your roadmap from learning to earning</p>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#start" class="btn btn-outline">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <h2>Create a step-by-step plan to start earning from your skills</h2>
+        <p class="lead">
+          Enter a few skills and goals — get a personalized roadmap with recommended micro-tasks, marketplaces, pricing tips, and a simple progress tracker.
+        </p>
+
+        <!-- Skill input (static form UI) -->
+        <form id="skill-form" class="skill-form" aria-label="Skill input form">
+          <label for="skills" class="visually-hidden">Your skills</label>
+          <input id="skills" name="skills" type="text" placeholder="e.g. Graphic Design, Python, Video Editing" />
+          <label for="goal" class="visually-hidden">Goal</label>
+          <select id="goal" name="goal">
+            <option value="freelance">Start freelancing</option>
+            <option value="small-business">Launch a mini-service</option>
+            <option value="gig-platform">Earn on gig platforms</option>
+          </select>
+          <button type="submit" class="btn btn-primary">Generate Roadmap</button>
+        </form>
+
+        <p class="note">This is a prototype UI — backend and AI recommendation layer can be added later.</p>
+      </div>
+
+      <div class="hero-right">
+        <div class="card quick-stats" aria-hidden="true">
+          <h3>Fast overview</h3>
+          <ul>
+            <li><strong>3</strong> suggested starter tasks</li>
+            <li><strong>2</strong> recommended platforms</li>
+            <li><strong>1</strong> growth milestone (earn first ₹1000)</li>
+          </ul>
+        </div>
+
+        <div class="card example-roadmap" aria-hidden="true">
+          <h4>Example snippet</h4>
+          <ol>
+            <li>Polish portfolio: 2 small projects</li>
+            <li>Create 3 gig listings on Fiverr</li>
+            <li>Apply to 10 gigs — price competitively</li>
+            <li>Deliver 3 projects & collect testimonials</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how-it-works" class="how-it-works">
+    <div class="container">
+      <h3>How it works</h3>
+      <div class="steps-grid">
+        <article class="step">
+          <div class="step-number">1</div>
+          <h4>Tell us your skills</h4>
+          <p>Enter the skills you already have and the kind of side-hustle you want.</p>
+        </article>
+
+        <article class="step">
+          <div class="step-number">2</div>
+          <h4>Get a tailored roadmap</h4>
+          <p>Receive staged micro-tasks (learn → build → list → pitch) and estimated timelines.</p>
+        </article>
+
+        <article class="step">
+          <div class="step-number">3</div>
+          <h4>Track progress</h4>
+          <p>Mark tasks done, track earnings, and get tips to scale rates and find clients.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="features">
+    <div class="container">
+      <h3>Key features</h3>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h4>Micro-task Roadmaps</h4>
+          <p>Small clear actions you can complete in 1–3 days to build momentum.</p>
+        </div>
+        <div class="feature-card">
+          <h4>Marketplace Suggestions</h4>
+          <p>Which platforms suit your skillset and how to price your first gigs.</p>
+        </div>
+        <div class="feature-card">
+          <h4>Progress & Earnings Tracker</h4>
+          <p>Simple dashboard for tasks completed and money earned.</p>
+        </div>
+        <div class="feature-card">
+          <h4>Templates & Messaging</h4>
+          <p>Proposal templates and sample messages to reach out to clients.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dashboard preview -->
+  <section id="dashboard" class="dashboard">
+    <div class="container dashboard-inner">
+      <div class="dashboard-left">
+        <h3>Your Roadmap</h3>
+
+        <div class="roadmap-card">
+          <div class="roadmap-header">
+            <h4>Graphic Design → Freelance Logos</h4>
+            <div class="progress-wrap" aria-hidden="true">
+              <div class="progress-bar" style="width: 40%"></div>
+              <span class="progress-label">40% complete</span>
+            </div>
+          </div>
+
+          <ol class="roadmap-tasks">
+            <li class="task done">
+              <span class="task-title">Create 2 portfolio pieces</span>
+              <span class="task-meta">2 days</span>
+            </li>
+            <li class="task active">
+              <span class="task-title">Write 3 gig descriptions</span>
+              <span class="task-meta">1 day</span>
+            </li>
+            <li class="task">
+              <span class="task-title">List gigs on Fiverr/Upwork</span>
+              <span class="task-meta">1 day</span>
+            </li>
+            <li class="task">
+              <span class="task-title">Apply to 10 gigs</span>
+              <span class="task-meta">3 days</span>
+            </li>
+          </ol>
+        </div>
+
+        <div class="card tips-card">
+          <h4>Quick tips</h4>
+          <ul>
+            <li>Start with a lower price to collect first 3 reviews.</li>
+            <li>Use clear, client-focused gig titles (benefit-first).</li>
+            <li>Deliver early and ask for feedback.</li>
+          </ul>
+        </div>
+      </div>
+
+      <aside class="dashboard-right" aria-label="Earnings and recommendations">
+        <div class="card earnings-card">
+          <h4>Earnings (preview)</h4>
+          <p class="earnings-amount">₹ 1,250</p>
+          <p class="small">This month</p>
+        </div>
+
+        <div class="card rec-card">
+          <h4>Recommended Platforms</h4>
+          <ul>
+            <li>Fiverr — Quick gigs</li>
+            <li>Upwork — Longer contracts</li>
+            <li>Instagram — Portfolio & DM outreach</li>
+          </ul>
+        </div>
+
+        <div class="card resources-card">
+          <h4>Starter Resources</h4>
+          <ul>
+            <li>Free design brief template</li>
+            <li>Sample client pitch</li>
+            <li>Guide: Pricing your first gig</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Built with ❤️ — SkillPath Roadmap Builder (prototype)</p>
+      <small>Design & prototype only — backend & AI recommendation engine are next steps.</small>
+    </div>
+  </footer>
+</body>
+</html>
