@@ -84,12 +84,5 @@ Simply open `index.html` in your browser.
 
 ---
 
-## 📌 Why Recruiters Will Like It
 
-✔️ Solves a **real-world problem** for students & early professionals
-✔️ Demonstrates **UI + backend scope + database integration**
-✔️ Future-ready with **AI-powered recommendations**
-✔️ Looks like a **mini-startup project**, not just a simple CRUD app
-
----
 
